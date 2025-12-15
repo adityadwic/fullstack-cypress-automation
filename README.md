@@ -1,4 +1,4 @@
-# Cypress UI Automation Framework
+<img width="1439" height="778" alt="Fullstack Cypress Automation" src="https://github.com/user-attachments/assets/338978ed-39e3-49a8-aede-7c5385fc5cef" /># Cypress UI Automation Framework
 
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -65,6 +65,7 @@ npx cypress run --spec "cypress/e2e/login.cy.ts"
 ## Reports
 After execution, HTML reports are generated in the `cypress/reports` directory.
 - CI/CD Artifacts: Reports are automatically uploaded to GitHub Actions artifacts.
+<img width="1439" height="778" alt="Fullstack Cypress Automation" src="https://github.com/user-attachments/assets/5fe79d7e-fcc3-41f7-a1fb-fd1b291c8e9a" />
 
 ## Code Quality
 This project uses **Husky** to ensure code quality before every commit.
