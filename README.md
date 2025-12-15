@@ -1,4 +1,4 @@
-<img width="1439" height="778" alt="Fullstack Cypress Automation" src="https://github.com/user-attachments/assets/338978ed-39e3-49a8-aede-7c5385fc5cef" /># Cypress UI Automation Framework
+# Cypress UI Automation Framework
 
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
