@@ -1,0 +1,25 @@
+{
+  "user": {
+    "name": "Test User",
+    "email": "testuser_unique@example.com",
+    "password": "password123",
+    "title": "Mr",
+    "dob": {
+      "day": "1",
+      "month": "January",
+      "year": "2000"
+    },
+    "firstName": "Test",
+    "lastName": "User",
+    "company": "Test Company",
+    "address1": "123 Test St",
+    "address2": "Suite 100",
+    "country": "India",
+    "state": "Test State",
+    "city": "Test City",
+    "zipcode": "123456",
+    "mobile": "9876543210",
+    "newsletter": true,
+    "specialOffers": true
+  }
+}

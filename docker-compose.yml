@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  cypress:
+    build: .
+    volumes:
+      - ./cypress/reports:/e2e/cypress/reports # Mount reports for host access
+    ipc: host # Avoid memory issues
+    environment:
+      - CYPRESS_BASE_URL=http://automationexercise.com

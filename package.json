@@ -1,0 +1,44 @@
+{
+  "name": "fullstack-ui-automation-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:smoke": "cypress run --env grepTags=@smoke",
+    "test:regression": "cypress run",
+    "test:negative": "cypress run --env grepTags=@negative",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.ts'",
+    "lint": "eslint cypress --ext .ts,.js",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^15.7.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "cypress-mochawesome-reporter": "^3.8.4",
+    "eslint": "^9.39.2",
+    "eslint-plugin-cypress": "^5.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.3.2",
+    "prettier": "^3.7.4"
+  }
+}
